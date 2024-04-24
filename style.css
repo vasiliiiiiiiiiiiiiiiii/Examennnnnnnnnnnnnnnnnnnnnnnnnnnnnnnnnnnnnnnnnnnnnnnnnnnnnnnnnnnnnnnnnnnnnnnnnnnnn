@@ -69,7 +69,7 @@
     color: white;
 }
 header{
-    background-color: green;
+    background-color: #00BF63;
 }
 .footer-columns {
     display: flex;
@@ -81,11 +81,11 @@ header{
  }
  main{
     padding: 10px;
-    background-color: green;
+    background-color: #00bf63bb;
     font-family: "Tilt Neon" ;
  }
 .post{
-    background-color: rgb(102, 50, 1);
+    background-color: #00bf6379;
     padding: 20px;
     border-radius: 10px;
     margin-bottom: 20px;
