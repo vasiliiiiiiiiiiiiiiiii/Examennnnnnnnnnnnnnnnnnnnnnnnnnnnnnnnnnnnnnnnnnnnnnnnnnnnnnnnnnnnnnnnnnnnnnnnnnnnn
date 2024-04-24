@@ -1,103 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-   
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap" rel="stylesheet">
-    
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link rel="stylesheet" href="style.css">
 
-    <script>
-      $(document).ready(function(){
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap" rel="stylesheet">
+
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+   <script>
+      $(document).ready(function () {
          $('.bxslider').bxSlider({
-    auto: true,
-    autoControls: true,
-    stopAutoOnClick: true,
-    pager: true,
-  });
+            pager: false,
+            speed: 750,
+            randomStart: true,
+            infiniteLoop: true,
+            auto: true,
+            pause: 2500,
+            autoHover: true,
+            responsive: true,
+            controls: false,
+            mode: 'fade'
+         });
       });
-    </script>
-
+   </script>
 </head>
+
 <body>
-    <header>
-        <img src="Дизайн без названия.png" alt="">
-        <nav id="menu1">
-            <ul>
-                  <li><a href="#m1">MENU</a></li>
-                  <li><a href="#m2">MENU</a></li>
-                  <li><a href="#m3">MENU</a>
-                     <ul>
-                        <li><a href="#m3_1">MENU</a></li>
-                        <li><a href="#m3_2">MENU</a></li>
-                        <li><a href="#m3_3">MENU</a></li>
-                        <li><a href="#m3_4">MENU</a></li>
-                        <li><a href="#m3_5">MENU</a></li>
-                     </ul>
-                  </li>
-                  <li><a href="#m4">MENU</a></li>
-                  <li><a href="#m5">MENU</a></li>
-            </ul>
-        </nav>
-    </header>
+   <header>
+      <img src="Дизайн без названия.png" alt="">
+      <nav id="menu1">
+         <ul>
+            <li><a href="#m1">MENU</a></li>
+            <li><a href="#m2">MENU</a></li>
+            <li><a href="#m3">MENU</a>
+               <ul>
+                  <li><a href="#m3_1">MENU</a></li>
+                  <li><a href="#m3_2">MENU</a></li>
+                  <li><a href="#m3_3">MENU</a></li>
+                  <li><a href="#m3_4">MENU</a></li>
+                  <li><a href="#m3_5">MENU</a></li>
+               </ul>
+            </li>
+            <li><a href="#m4">MENU</a></li>
+            <li><a href="#m5">MENU</a></li>
+         </ul>
+      </nav>
+   </header>
 
-    <main>
-      
-        <div class="slider"> 
-            <img src="./Без названия (1).jpg">
-            <img src="./ghjk.jpg">
-            <img src="./Без названия (2).jpg">
-            <img src="./Без названия.jpg">
-        </div>
+   <main>
 
-        <div class="post">
-            <img height="250" src="" alt="">
+      <div class="slider">
+         <img src="./Без названия (1).jpg">
+         <img src="./ghjk.jpg">
+         <img src="./Без названия (2).jpg">
+         <img src="./Без названия.jpg">
+      </div>
+
+      <div class="post">
+         <img height="250" src="" alt="">
+      </div>
+      <h3></h3>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas voluptatibus distinctio odit autem doloribus et
+         tempore possimus, sapiente a tenetur aspernatur, esse id. Quas, sapiente delectus ea possimus illum quaerat?
+      </p>
+      <a href="#">Read more</a>
+      </div>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/Ci3Fqjagl8Q?si=JyNzQrgOkGolHgAv"
+         title="YouTube video player" frameborder="0"
+         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+         referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+   </main>
+
+   <footer>
+      <div>
+         <img src="Дизайн без названия.png" alt="" width="250">
+
+
+      </div>
+      <div class="footer-columns">
+         <div class="footer-column">
+            <h3>About</h3>
+            <p>
+               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae dolorum incidunt ratione corrupti
+               quos tempora
+               modi sequi odio iste quibusdam, debitis, eos distinctio! Necessitatibus fuga expedita voluptate, nemo,
+               sapiente, ut
+               tenetur explicabo tempore earum ab quod quia? Nam est corrupti non soluta veritatis. Omnis sequi
+               consequatur quo illum
+               sit autem fugiat minus officia, quam debitis iste impedit culpa? Est quibusdam atque doloremque itaque
+               aperiam doloribus,
+               ducimus id, sapiente velit blanditiis sed ut voluptas voluptatum qui ipsam praesentium quam inventore
+               quos possimus, tenetur
+               molestiae repellendus hic! Obcaecati perspiciatis corrupti dolor pariatur est doloribus modi. Beatae
+               consequuntur accusantium velit autem ullam impedit!
+            </p>
          </div>
-                <h3></h3>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas voluptatibus distinctio odit autem doloribus et tempore possimus, sapiente a tenetur aspernatur, esse id. Quas, sapiente delectus ea possimus illum quaerat?
-                </p>
-                <a href="#">Read more</a>
-            </div>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/Ci3Fqjagl8Q?si=JyNzQrgOkGolHgAv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        </div>
-     </main>
-
-     <footer>
-        <div>
-           <img src="Дизайн без названия.png" alt="" width="250">
-        
-
-        </div>
-        <div class="footer-columns">
-           <div class="footer-column">
-              <h3>About</h3>
-              <p>
-                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae dolorum incidunt ratione corrupti quos tempora 
-                 modi sequi odio iste quibusdam, debitis, eos distinctio! Necessitatibus fuga expedita voluptate, nemo, sapiente, ut 
-                 tenetur explicabo tempore earum ab quod quia? Nam est corrupti non soluta veritatis. Omnis sequi consequatur quo illum 
-                 sit autem fugiat minus officia, quam debitis iste impedit culpa? Est quibusdam atque doloremque itaque aperiam doloribus, 
-                 ducimus id, sapiente velit blanditiis sed ut voluptas voluptatum qui ipsam praesentium quam inventore quos possimus, tenetur 
-                 molestiae repellendus hic! Obcaecati perspiciatis corrupti dolor pariatur est doloribus modi. Beatae consequuntur accusantium velit autem ullam impedit!
-              </p>
-           </div>
-           <div class="footer-column">
-              <h3>Contact me</h3>
-              <p>
-                 If you are interested in working with me or just want to say 
-                 hello simply write on email.
-                 <br><strong>Email: <a href="#">contact@mail.com</a></strong>
-              </p>
-           </div>
-        </div>
-    </footer>
-     </footer>
+         <div class="footer-column">
+            <h3>Contact me</h3>
+            <p>
+               If you are interested in working with me or just want to say
+               hello simply write on email.
+               <br><strong>Email: <a href="#">contact@mail.com</a></strong>
+            </p>
+         </div>
+      </div>
+   </footer>
+   </footer>
 
 </body>
+
 </html>
