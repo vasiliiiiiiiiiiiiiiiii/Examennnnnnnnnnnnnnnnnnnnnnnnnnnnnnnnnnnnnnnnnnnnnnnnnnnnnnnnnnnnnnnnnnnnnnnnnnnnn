@@ -49,7 +49,7 @@
     left: 0px;
     display: none;
     width: 200px;
-    background: #38b6ff;
+    background:green;
 }
 #menu1 ul li:hover ul{
     display: block;
@@ -65,8 +65,8 @@
     padding: 7px 25px;
     width: 100%;
     box-sizing: border-box;
-    border-top: 1px solid white;
-    color: white;
+    border-top: 1px solid rgba(0, 128, 0, 0.5);
+    color: hsla(120, 100%, 25%, 0.250);
 }
 header{
     background-color: #00BF63;
