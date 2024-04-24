@@ -79,6 +79,21 @@ header{
     flex: 50%;
     margin: 20px;
  }
+ main{
+    padding: 10px;
+    background-color: silver;
+    font-family: "Tilt Neon" ;
+ }
+.post{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    display: flex;
+}
+.post img {
+    margin: 20px;
+}
 
 
 
@@ -90,4 +105,4 @@ header{
 
 
 
- 
+
