@@ -15,20 +15,13 @@
     <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
 
     <script>
-     jQuery(document).ready(function(){
-    jQuery('.bxslider').bxSlider({
-    pager: false, 
-    speed: 750,
-    randomStart:true,
-    infiniteLoop: true,
-    auto:true,
-    pause: 2500,
-    autoHover:true,
-    responsive: true,
-    controls:false,
-    mode: 'fade'
-    });
-    });
+     $('.bxslider').bxSlider({
+    auto: true,
+    autoControls: true,
+    stopAutoOnClick: true,
+    pager: true,
+    slideWidth: 600
+  });
     </script>
 
 </head>
