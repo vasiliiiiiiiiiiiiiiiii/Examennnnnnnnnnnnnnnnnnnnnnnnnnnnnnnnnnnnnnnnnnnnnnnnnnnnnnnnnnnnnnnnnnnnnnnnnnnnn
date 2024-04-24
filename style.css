@@ -81,11 +81,11 @@ header{
  }
  main{
     padding: 10px;
-    background-color: silver;
+    background-color: green;
     font-family: "Tilt Neon" ;
  }
 .post{
-    background-color: white;
+    background-color: rgb(102, 50, 1);
     padding: 20px;
     border-radius: 10px;
     margin-bottom: 20px;
