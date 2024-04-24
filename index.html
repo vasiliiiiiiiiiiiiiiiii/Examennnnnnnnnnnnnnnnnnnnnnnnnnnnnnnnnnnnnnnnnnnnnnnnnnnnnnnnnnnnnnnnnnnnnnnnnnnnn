@@ -15,9 +15,20 @@
     <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
 
     <script>
-      $(document).ready(function(){
-        $(".slider").bxSlider();
-      });
+     jQuery(document).ready(function(){
+    jQuery('.bxslider').bxSlider({
+    pager: false, 
+    speed: 750,
+    randomStart:true,
+    infiniteLoop: true,
+    auto:true,
+    pause: 2500,
+    autoHover:true,
+    responsive: true,
+    controls:false,
+    mode: 'fade'
+    });
+    });
     </script>
 
 </head>
@@ -47,10 +58,10 @@
       
         <div class="slider"> 
             <img src="./Без названия (1).jpg">
-            <img src="./ghjk.jpg" alt="">
-            <img src="./Без названия (1).jpg" alt="">
-            <img src="./Без названия (2).jpg" alt="">
-            <img src="./Дизайн без названия.png" alt="">
+            <img src="./ghjk.jpg" >
+            <img src="./Без названия (1).jpg" >
+            <img src="./Без названия (2).jpg" >
+            <img src="./Дизайн без названия.png" >
         </div>
 </body>
 </html>
